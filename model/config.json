@@ -1,0 +1,39 @@
+{
+  "name": "tiny-shakespeare-transformer",
+  "note": "The ONE model all six implementations run. Every implementation reads this file; none of them may hardcode a dimension.",
+  "arch": {
+    "n_layer": 4,
+    "n_head": 4,
+    "d_model": 128,
+    "d_ff": 512,
+    "block_size": 96,
+    "norm": "layernorm_pre",
+    "activation": "gelu_tanh",
+    "pos": "learned_absolute",
+    "bias": true,
+    "tie_embeddings": false
+  },
+  "decode": {
+    "note": "No KV cache. Every generated token costs a full forward pass over the whole context. This is the naive algorithm on purpose: it is the one thing all six implementations can express identically, so the race measures the matmul and nothing else.",
+    "prompt": "ROMEO:\nWhat say",
+    "new_tokens": 64,
+    "strategy": "greedy_argmax",
+    "temperature": null
+  },
+  "train": {
+    "seed": 20260918,
+    "steps": 3000,
+    "batch_size": 64,
+    "lr": 0.0003,
+    "warmup": 100,
+    "device": "mps",
+    "dtype": "float32",
+    "eval_every": 100,
+    "eval_batches": 20
+  },
+  "corpus": {
+    "path": "corpus/tinyshakespeare.txt",
+    "tokenizer": "char",
+    "split": 0.9
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-18",
+  "what": "Two damage experiments (bitflip.py per-tensor and prune.py) ran concurrently for about 100 minutes at ~300% CPU each, far slower than expected.",
+  "machine": "M1 Pro, 6 performance + 2 efficiency cores, 16 GB",
+  "blas": {
+    "internal_api": "openblas",
+    "num_threads_default": 8,
+    "source": "threadpoolctl.threadpool_info() in the project venv"
+  },
+  "measured_while_both_ran": {
+    "note": "a third process timed one call of each while the two experiments were still running",
+    "default_threads": {
+      "loss_s": 275.7,
+      "sample_s": 146.07,
+      "openblas_threads": 8
+    },
+    "OPENBLAS_NUM_THREADS=1": {
+      "loss_s": 1.9,
+      "sample_s": 0.4,
+      "openblas_threads": 1
+    }
+  },
+  "slowdown": {
+    "loss": 145.1,
+    "sample": 365.2
+  },
+  "ps_at_the_time": {
+    "elapsed": "01:40:59",
+    "cpu_percent_each": [
+      305.2,
+      300.7
+    ]
+  },
+  "throughput_check": "140 loss evaluations in 91.3 minutes: about 39 s each (see jobs_observed)",
+  "fix": "os.environ.setdefault('OPENBLAS_NUM_THREADS', '1') before importing numpy, in bitflip.py and prune.py",
+  "verified": "after the fix, the rerun reproduced every already-printed row exactly: 34 prune rows and 6 bit-flip rows compared, identical",
+  "jobs_observed": {
+    "loss_evaluations_done": 140,
+    "minutes_elapsed": 91.3,
+    "seconds_per_loss_upper_bound": 39.1,
+    "derivation": "bitflip.py per-tensor: process start 16:37:38 (ps elapsed 01:40:59 at 18:18:37); its 14th row (140 loss evaluations) was written at 18:08:57, the log's mtime. 91.3 min / 140 = 39.1 s per evaluation, an upper bound because it includes check()'s startup sample."
+  }
+}

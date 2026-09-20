@@ -1,0 +1,13 @@
+# The public bracen-benchmarks repo.
+
+# Built here, never shipped. harness/build_c.sh compiles these from impls/03_04_c.c; a repo whose
+# claim is "measured, not asserted" should not ask anyone to run a binary they cannot read.
+bin/
+
+# Screen recordings of the benchmarks running. These are the raw footage the videos are cut from —
+# hundreds of megabytes, and not something anyone needs to reproduce a number.
+capture/
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,63 @@
+scalar d_model 128
+scalar n_head 4
+scalar n_layer 4
+scalar d_ff 512
+scalar block_size 96
+scalar vocab_size 65
+scalar new_tokens 64
+scalar total_floats 822337
+prompt 15 30 27 25 17 27 10 0 35 46 39 58 1 57 39 63
+tensor tok.weight 0 8320
+tensor pos.weight 8320 12288
+tensor b0.ln1.g 20608 128
+tensor b0.ln1.b 20736 128
+tensor b0.qkv.w 20864 49152
+tensor b0.qkv.b 70016 384
+tensor b0.proj.w 70400 16384
+tensor b0.proj.b 86784 128
+tensor b0.ln2.g 86912 128
+tensor b0.ln2.b 87040 128
+tensor b0.fc1.w 87168 65536
+tensor b0.fc1.b 152704 512
+tensor b0.fc2.w 153216 65536
+tensor b0.fc2.b 218752 128
+tensor b1.ln1.g 218880 128
+tensor b1.ln1.b 219008 128
+tensor b1.qkv.w 219136 49152
+tensor b1.qkv.b 268288 384
+tensor b1.proj.w 268672 16384
+tensor b1.proj.b 285056 128
+tensor b1.ln2.g 285184 128
+tensor b1.ln2.b 285312 128
+tensor b1.fc1.w 285440 65536
+tensor b1.fc1.b 350976 512
+tensor b1.fc2.w 351488 65536
+tensor b1.fc2.b 417024 128
+tensor b2.ln1.g 417152 128
+tensor b2.ln1.b 417280 128
+tensor b2.qkv.w 417408 49152
+tensor b2.qkv.b 466560 384
+tensor b2.proj.w 466944 16384
+tensor b2.proj.b 483328 128
+tensor b2.ln2.g 483456 128
+tensor b2.ln2.b 483584 128
+tensor b2.fc1.w 483712 65536
+tensor b2.fc1.b 549248 512
+tensor b2.fc2.w 549760 65536
+tensor b2.fc2.b 615296 128
+tensor b3.ln1.g 615424 128
+tensor b3.ln1.b 615552 128
+tensor b3.qkv.w 615680 49152
+tensor b3.qkv.b 664832 384
+tensor b3.proj.w 665216 16384
+tensor b3.proj.b 681600 128
+tensor b3.ln2.g 681728 128
+tensor b3.ln2.b 681856 128
+tensor b3.fc1.w 681984 65536
+tensor b3.fc1.b 747520 512
+tensor b3.fc2.w 748032 65536
+tensor b3.fc2.b 813568 128
+tensor lnf.g 813696 128
+tensor lnf.b 813824 128
+tensor head.w 813952 8320
+tensor head.b 822272 65

@@ -1,0 +1,616 @@
+{
+  "trials": 100,
+  "bits_total": 6578696,
+  "baseline_int8": 1.698340892791748,
+  "baseline_float32": 1.696676254272461,
+  "int8_text_matches_race": true,
+  "break_at": 2.9363640813436924,
+  "median": 41397.5,
+  "p10": 35234.4,
+  "p90": 48685.6,
+  "min": 16882,
+  "max": 53223,
+  "never_broke_within_cap": 0,
+  "results": [
+    {
+      "trial": 0,
+      "flips_to_break": 38458,
+      "share_of_bits": 0.005845839357830184,
+      "spot_check_agrees": true
+    },
+    {
+      "trial": 1,
+      "flips_to_break": 36269,
+      "share_of_bits": 0.005513098644473008,
+      "spot_check_agrees": true
+    },
+    {
+      "trial": 2,
+      "flips_to_break": 35286,
+      "share_of_bits": 0.0053636769353683465,
+      "spot_check_agrees": true
+    },
+    {
+      "trial": 3,
+      "flips_to_break": 36368,
+      "share_of_bits": 0.0055281472194489605,
+      "spot_check_agrees": true
+    },
+    {
+      "trial": 4,
+      "flips_to_break": 48673,
+      "share_of_bits": 0.007398578684894392,
+      "spot_check_agrees": true
+    },
+    {
+      "trial": 5,
+      "flips_to_break": 42973,
+      "share_of_bits": 0.006532145580218329,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 6,
+      "flips_to_break": 40426,
+      "share_of_bits": 0.006144986787655183,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 7,
+      "flips_to_break": 37249,
+      "share_of_bits": 0.005662064336154155,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 8,
+      "flips_to_break": 41369,
+      "share_of_bits": 0.006288328264446328,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 9,
+      "flips_to_break": 45283,
+      "share_of_bits": 0.006883278996323892,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 10,
+      "flips_to_break": 16882,
+      "share_of_bits": 0.0025661620479195267,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 11,
+      "flips_to_break": 40990,
+      "share_of_bits": 0.006230718063275762,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 12,
+      "flips_to_break": 46565,
+      "share_of_bits": 0.007078150441972087,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 13,
+      "flips_to_break": 44408,
+      "share_of_bits": 0.006750273914465724,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 14,
+      "flips_to_break": 40369,
+      "share_of_bits": 0.006136322456608422,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 15,
+      "flips_to_break": 42473,
+      "share_of_bits": 0.006456142676299376,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 16,
+      "flips_to_break": 31168,
+      "share_of_bits": 0.00473771701869185,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 17,
+      "flips_to_break": 43599,
+      "share_of_bits": 0.006627301215924858,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 18,
+      "flips_to_break": 48256,
+      "share_of_bits": 0.0073351922630259855,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 19,
+      "flips_to_break": 36812,
+      "share_of_bits": 0.0055956377981289905,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 20,
+      "flips_to_break": 46507,
+      "share_of_bits": 0.0070693341051174885,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 21,
+      "flips_to_break": 44939,
+      "share_of_bits": 0.006830988998427652,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 22,
+      "flips_to_break": 39462,
+      "share_of_bits": 0.005998453188899441,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 23,
+      "flips_to_break": 37920,
+      "share_of_bits": 0.005764060233213391,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 24,
+      "flips_to_break": 51739,
+      "share_of_bits": 0.007864628491725412,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 25,
+      "flips_to_break": 42458,
+      "share_of_bits": 0.006453862589181808,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 26,
+      "flips_to_break": 26669,
+      "share_of_bits": 0.0040538428892291116,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 27,
+      "flips_to_break": 40251,
+      "share_of_bits": 0.006118385771283549,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 28,
+      "flips_to_break": 43751,
+      "share_of_bits": 0.006650406098716219,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 29,
+      "flips_to_break": 52397,
+      "share_of_bits": 0.007964648313282753,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 30,
+      "flips_to_break": 36187,
+      "share_of_bits": 0.005500634168230299,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 31,
+      "flips_to_break": 46885,
+      "share_of_bits": 0.007126792300480217,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 32,
+      "flips_to_break": 40752,
+      "share_of_bits": 0.00619454068101034,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 33,
+      "flips_to_break": 45618,
+      "share_of_bits": 0.00693420094194959,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 34,
+      "flips_to_break": 47133,
+      "share_of_bits": 0.007164489740824017,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 35,
+      "flips_to_break": 46949,
+      "share_of_bits": 0.007136520672181843,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 36,
+      "flips_to_break": 42127,
+      "share_of_bits": 0.0064035486667874605,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 37,
+      "flips_to_break": 40946,
+      "share_of_bits": 0.006224029807730894,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 38,
+      "flips_to_break": 37944,
+      "share_of_bits": 0.005767708372601501,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 39,
+      "flips_to_break": 38943,
+      "share_of_bits": 0.0059195621746315685,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 40,
+      "flips_to_break": 43057,
+      "share_of_bits": 0.006544914068076713,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 41,
+      "flips_to_break": 42436,
+      "share_of_bits": 0.006450518461409374,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 42,
+      "flips_to_break": 27362,
+      "share_of_bits": 0.00415918291406078,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 43,
+      "flips_to_break": 46390,
+      "share_of_bits": 0.007051549425600453,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 44,
+      "flips_to_break": 48799,
+      "share_of_bits": 0.007417731416681969,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 45,
+      "flips_to_break": 36268,
+      "share_of_bits": 0.00551294663866517,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 46,
+      "flips_to_break": 41237,
+      "share_of_bits": 0.006268263497811725,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 47,
+      "flips_to_break": 45870,
+      "share_of_bits": 0.006972506405524742,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 48,
+      "flips_to_break": 40524,
+      "share_of_bits": 0.006159883356823297,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 49,
+      "flips_to_break": 46329,
+      "share_of_bits": 0.007042277071322341,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 50,
+      "flips_to_break": 44181,
+      "share_of_bits": 0.006715768596086519,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 51,
+      "flips_to_break": 51878,
+      "share_of_bits": 0.00788575729901488,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 52,
+      "flips_to_break": 44265,
+      "share_of_bits": 0.006728537083944904,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 53,
+      "flips_to_break": 41090,
+      "share_of_bits": 0.006245918644059552,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 54,
+      "flips_to_break": 49936,
+      "share_of_bits": 0.007590562020193667,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 55,
+      "flips_to_break": 52512,
+      "share_of_bits": 0.007982128981184113,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 56,
+      "flips_to_break": 30454,
+      "share_of_bits": 0.004629184871895585,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 57,
+      "flips_to_break": 47136,
+      "share_of_bits": 0.007164945758247531,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 58,
+      "flips_to_break": 39189,
+      "share_of_bits": 0.005956955603359693,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 59,
+      "flips_to_break": 31637,
+      "share_of_bits": 0.004809007742567828,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 60,
+      "flips_to_break": 37126,
+      "share_of_bits": 0.005643367621790093,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 61,
+      "flips_to_break": 34347,
+      "share_of_bits": 0.005220943481808553,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 62,
+      "flips_to_break": 36120,
+      "share_of_bits": 0.00549044977910516,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 63,
+      "flips_to_break": 35780,
+      "share_of_bits": 0.005438767804440272,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 64,
+      "flips_to_break": 50612,
+      "share_of_bits": 0.007693317946292092,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 65,
+      "flips_to_break": 43576,
+      "share_of_bits": 0.006623805082344586,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 66,
+      "flips_to_break": 33179,
+      "share_of_bits": 0.005043400698253879,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 67,
+      "flips_to_break": 35425,
+      "share_of_bits": 0.005384805742657816,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 68,
+      "flips_to_break": 34770,
+      "share_of_bits": 0.005285241938523987,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 69,
+      "flips_to_break": 44813,
+      "share_of_bits": 0.006811836266640075,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 70,
+      "flips_to_break": 41690,
+      "share_of_bits": 0.006337122128762296,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 71,
+      "flips_to_break": 38899,
+      "share_of_bits": 0.005912873919086701,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 72,
+      "flips_to_break": 40611,
+      "share_of_bits": 0.006173107862105195,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 73,
+      "flips_to_break": 35473,
+      "share_of_bits": 0.005392102021434035,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 74,
+      "flips_to_break": 36481,
+      "share_of_bits": 0.005545323875734644,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 75,
+      "flips_to_break": 40642,
+      "share_of_bits": 0.00617782004214817,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 76,
+      "flips_to_break": 39188,
+      "share_of_bits": 0.005956803597551855,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 77,
+      "flips_to_break": 51973,
+      "share_of_bits": 0.007900197850759481,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 78,
+      "flips_to_break": 38567,
+      "share_of_bits": 0.005862407990884516,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 79,
+      "flips_to_break": 44692,
+      "share_of_bits": 0.006793443563891689,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 80,
+      "flips_to_break": 53223,
+      "share_of_bits": 0.008090205110556864,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 81,
+      "flips_to_break": 45285,
+      "share_of_bits": 0.006883583007939567,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 82,
+      "flips_to_break": 47576,
+      "share_of_bits": 0.00723182831369621,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 83,
+      "flips_to_break": 43211,
+      "share_of_bits": 0.00656832296248375,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 84,
+      "flips_to_break": 41426,
+      "share_of_bits": 0.006296992595493088,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 85,
+      "flips_to_break": 50681,
+      "share_of_bits": 0.007703806347032907,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 86,
+      "flips_to_break": 42506,
+      "share_of_bits": 0.006461158867958027,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 87,
+      "flips_to_break": 47984,
+      "share_of_bits": 0.0072938466832940755,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 88,
+      "flips_to_break": 30958,
+      "share_of_bits": 0.00470579579904589,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 89,
+      "flips_to_break": 40964,
+      "share_of_bits": 0.006226765912271976,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 90,
+      "flips_to_break": 38698,
+      "share_of_bits": 0.005882320751711282,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 91,
+      "flips_to_break": 47886,
+      "share_of_bits": 0.007278950114125961,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 92,
+      "flips_to_break": 39061,
+      "share_of_bits": 0.005937498859956441,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 93,
+      "flips_to_break": 40078,
+      "share_of_bits": 0.006092088766527591,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 94,
+      "flips_to_break": 45042,
+      "share_of_bits": 0.006846645596634956,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 95,
+      "flips_to_break": 37036,
+      "share_of_bits": 0.005629687099084682,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 96,
+      "flips_to_break": 42939,
+      "share_of_bits": 0.00652697738275184,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 97,
+      "flips_to_break": 37765,
+      "share_of_bits": 0.0057404993329985155,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 98,
+      "flips_to_break": 44017,
+      "share_of_bits": 0.006690839643601103,
+      "spot_check_agrees": null
+    },
+    {
+      "trial": 99,
+      "flips_to_break": 46402,
+      "share_of_bits": 0.0070533734952945085,
+      "spot_check_agrees": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "flip": {
+    "tensor": "b0.qkv.w",
+    "elem": 20864,
+    "bit": 30,
+    "old": 0.03412354737520218,
+    "new": 1.1611641468572574e+37
+  },
+  "part": "query",
+  "loss_before": 1.696676254272461,
+  "loss_after": 2.106855630874634,
+  "before": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the ",
+  "after": "ROMEO:\nWhat say the the come and to the son,\nAnd the shall the shall the see to"
+}

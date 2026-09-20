@@ -1,0 +1,279 @@
+{
+  "valid": true,
+  "window_s": 10.0,
+  "np_batch": 64,
+  "context_len": 28,
+  "cores": {
+    "performance": 6,
+    "efficiency": 2
+  },
+  "blas_default": [
+    {
+      "internal_api": "openblas",
+      "num_threads": 8,
+      "version": "0.3.23.dev"
+    }
+  ],
+  "rows": [
+    {
+      "workload": "pure-python",
+      "workers": 1,
+      "forwards": 7,
+      "wall_s": 10.385,
+      "throughput": 0.674,
+      "cores_used": 1.15,
+      "answers": [
+        1
+      ],
+      "speedup": 1.0,
+      "correct": true
+    },
+    {
+      "workload": "pure-python",
+      "workers": 2,
+      "forwards": 8,
+      "wall_s": 11.944,
+      "throughput": 0.67,
+      "cores_used": 0.98,
+      "answers": [
+        1
+      ],
+      "speedup": 0.99,
+      "correct": true
+    },
+    {
+      "workload": "pure-python",
+      "workers": 4,
+      "forwards": 8,
+      "wall_s": 12.702,
+      "throughput": 0.63,
+      "cores_used": 0.95,
+      "answers": [
+        1
+      ],
+      "speedup": 0.93,
+      "correct": true
+    },
+    {
+      "workload": "pure-python",
+      "workers": 6,
+      "forwards": 12,
+      "wall_s": 17.264,
+      "throughput": 0.695,
+      "cores_used": 1.01,
+      "answers": [
+        1
+      ],
+      "speedup": 1.03,
+      "correct": true
+    },
+    {
+      "workload": "pure-python",
+      "workers": 8,
+      "forwards": 8,
+      "wall_s": 11.558,
+      "throughput": 0.692,
+      "cores_used": 1.01,
+      "answers": [
+        1
+      ],
+      "speedup": 1.03,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas1",
+      "workers": 1,
+      "forwards": 126,
+      "wall_s": 10.024,
+      "throughput": 12.569,
+      "cores_used": 1.0,
+      "answers": [
+        1
+      ],
+      "speedup": 1.0,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas1",
+      "workers": 2,
+      "forwards": 246,
+      "wall_s": 10.056,
+      "throughput": 24.463,
+      "cores_used": 2.0,
+      "answers": [
+        1
+      ],
+      "speedup": 1.95,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas1",
+      "workers": 4,
+      "forwards": 478,
+      "wall_s": 10.045,
+      "throughput": 47.587,
+      "cores_used": 3.96,
+      "answers": [
+        1
+      ],
+      "speedup": 3.79,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas1",
+      "workers": 6,
+      "forwards": 690,
+      "wall_s": 10.037,
+      "throughput": 68.746,
+      "cores_used": 5.91,
+      "answers": [
+        1
+      ],
+      "speedup": 5.47,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas1",
+      "workers": 8,
+      "forwards": 728,
+      "wall_s": 10.087,
+      "throughput": 72.169,
+      "cores_used": 7.25,
+      "answers": [
+        1
+      ],
+      "speedup": 5.74,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas-default",
+      "workers": 1,
+      "forwards": 94,
+      "wall_s": 10.041,
+      "throughput": 9.362,
+      "cores_used": 7.64,
+      "answers": [
+        1
+      ],
+      "speedup": 1.0,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas-default",
+      "workers": 2,
+      "forwards": 81,
+      "wall_s": 10.083,
+      "throughput": 8.034,
+      "cores_used": 7.62,
+      "answers": [
+        1
+      ],
+      "speedup": 0.86,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas-default",
+      "workers": 4,
+      "forwards": 71,
+      "wall_s": 10.252,
+      "throughput": 6.926,
+      "cores_used": 7.23,
+      "answers": [
+        1
+      ],
+      "speedup": 0.74,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas-default",
+      "workers": 6,
+      "forwards": 78,
+      "wall_s": 10.332,
+      "throughput": 7.549,
+      "cores_used": 7.55,
+      "answers": [
+        1
+      ],
+      "speedup": 0.81,
+      "correct": true
+    },
+    {
+      "workload": "numpy-blas-default",
+      "workers": 8,
+      "forwards": 83,
+      "wall_s": 10.416,
+      "throughput": 7.969,
+      "cores_used": 7.61,
+      "answers": [
+        1
+      ],
+      "speedup": 0.85,
+      "correct": true
+    },
+    {
+      "workload": "pure-python-procs",
+      "workers": 1,
+      "forwards": 8,
+      "wall_s": 11.693,
+      "throughput": 0.702,
+      "cores_used": 1.07,
+      "answers": [
+        1
+      ],
+      "speedup": 1.0,
+      "correct": true
+    },
+    {
+      "workload": "pure-python-procs",
+      "workers": 2,
+      "forwards": 14,
+      "wall_s": 10.315,
+      "throughput": 1.389,
+      "cores_used": 2.1,
+      "answers": [
+        1
+      ],
+      "speedup": 1.98,
+      "correct": true
+    },
+    {
+      "workload": "pure-python-procs",
+      "workers": 4,
+      "forwards": 28,
+      "wall_s": 10.666,
+      "throughput": 2.727,
+      "cores_used": 4.06,
+      "answers": [
+        1
+      ],
+      "speedup": 3.88,
+      "correct": true
+    },
+    {
+      "workload": "pure-python-procs",
+      "workers": 6,
+      "forwards": 42,
+      "wall_s": 11.227,
+      "throughput": 3.93,
+      "cores_used": 5.94,
+      "answers": [
+        1
+      ],
+      "speedup": 5.6,
+      "correct": true
+    },
+    {
+      "workload": "pure-python-procs",
+      "workers": 8,
+      "forwards": 46,
+      "wall_s": 13.53,
+      "throughput": 3.789,
+      "cores_used": 6.38,
+      "answers": [
+        1
+      ],
+      "speedup": 5.4,
+      "correct": true
+    }
+  ]
+}

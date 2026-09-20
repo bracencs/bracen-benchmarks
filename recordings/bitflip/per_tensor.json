@@ -1,0 +1,384 @@
+{
+  "baseline": 1.696676254272461,
+  "break_at": 2.935531762084049,
+  "rows": [
+    {
+      "tensor": "tok.weight",
+      "count": 8320,
+      "reps": 10,
+      "broken": 1,
+      "median_loss": 1.8022197484970093
+    },
+    {
+      "tensor": "pos.weight",
+      "count": 12288,
+      "reps": 10,
+      "broken": 0,
+      "median_loss": 1.8694570064544678
+    },
+    {
+      "tensor": "b0.ln1.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b0.ln1.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b0.qkv.w",
+      "count": 49152,
+      "reps": 10,
+      "broken": 3,
+      "median_loss": 2.2486077547073364
+    },
+    {
+      "tensor": "b0.qkv.b",
+      "count": 384,
+      "reps": 10,
+      "broken": 3,
+      "median_loss": 1.7925135493278503
+    },
+    {
+      "tensor": "b0.proj.w",
+      "count": 16384,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b0.proj.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b0.ln2.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b0.ln2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b0.fc1.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.4253125190734863
+    },
+    {
+      "tensor": "b0.fc1.b",
+      "count": 512,
+      "reps": 10,
+      "broken": 4,
+      "median_loss": 1.6975805759429932
+    },
+    {
+      "tensor": "b0.fc2.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b0.fc2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b1.ln1.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b1.ln1.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b1.qkv.w",
+      "count": 49152,
+      "reps": 10,
+      "broken": 4,
+      "median_loss": 2.3146722316741943
+    },
+    {
+      "tensor": "b1.qkv.b",
+      "count": 384,
+      "reps": 10,
+      "broken": 3,
+      "median_loss": 1.8566215634346008
+    },
+    {
+      "tensor": "b1.proj.w",
+      "count": 16384,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b1.proj.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b1.ln2.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b1.ln2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b1.fc1.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 8,
+      "median_loss": 3.1240772008895874
+    },
+    {
+      "tensor": "b1.fc1.b",
+      "count": 512,
+      "reps": 10,
+      "broken": 8,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b1.fc2.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b1.fc2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b2.ln1.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b2.ln1.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b2.qkv.w",
+      "count": 49152,
+      "reps": 10,
+      "broken": 4,
+      "median_loss": 2.0229933857917786
+    },
+    {
+      "tensor": "b2.qkv.b",
+      "count": 384,
+      "reps": 10,
+      "broken": 3,
+      "median_loss": 1.9100857377052307
+    },
+    {
+      "tensor": "b2.proj.w",
+      "count": 16384,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b2.proj.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b2.ln2.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b2.ln2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b2.fc1.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 4,
+      "median_loss": 2.849145293235779
+    },
+    {
+      "tensor": "b2.fc1.b",
+      "count": 512,
+      "reps": 10,
+      "broken": 5,
+      "median_loss": 2.7247155904769897
+    },
+    {
+      "tensor": "b2.fc2.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b2.fc2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b3.ln1.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b3.ln1.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b3.qkv.w",
+      "count": 49152,
+      "reps": 10,
+      "broken": 3,
+      "median_loss": 2.01393985748291
+    },
+    {
+      "tensor": "b3.qkv.b",
+      "count": 384,
+      "reps": 10,
+      "broken": 3,
+      "median_loss": 2.1124231815338135
+    },
+    {
+      "tensor": "b3.proj.w",
+      "count": 16384,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b3.proj.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b3.ln2.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "b3.ln2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b3.fc1.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 0,
+      "median_loss": 2.741888999938965
+    },
+    {
+      "tensor": "b3.fc1.b",
+      "count": 512,
+      "reps": 10,
+      "broken": 5,
+      "median_loss": 2.7262943983078003
+    },
+    {
+      "tensor": "b3.fc2.w",
+      "count": 65536,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "b3.fc2.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 3.751925230026245
+    },
+    {
+      "tensor": "lnf.g",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "lnf.b",
+      "count": 128,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "head.w",
+      "count": 8320,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    },
+    {
+      "tensor": "head.b",
+      "count": 65,
+      "reps": 10,
+      "broken": 10,
+      "median_loss": 99.0
+    }
+  ]
+}

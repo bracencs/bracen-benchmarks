@@ -1,0 +1,83 @@
+{
+  "mps_available": true,
+  "dispatch_estimate": {
+    "per_layer": 35,
+    "n_layer": 4,
+    "per_forward": 148,
+    "per_generation": 9472,
+    "note": "structural count of separate tensor ops, not a profiler trace"
+  },
+  "fixed_cost": {
+    "cpu": {
+      "trivial_add_s": 1.537541495054029e-06,
+      "scalar_readback_s": 1.0170800669584424e-06
+    },
+    "mps": {
+      "trivial_add_s": 3.849647899914999e-05,
+      "scalar_readback_s": 0.000273224164993735
+    },
+    "mps_over_cpu_dispatch": 25.04
+  },
+  "matmul_crossover": [
+    {
+      "n": 32,
+      "cpu": 1.1295800504740327e-06,
+      "mps": 4.940999991958961e-05,
+      "mps_speedup_over_cpu": 0.023
+    },
+    {
+      "n": 64,
+      "cpu": 1.5695850015617907e-06,
+      "mps": 5.348646009224467e-05,
+      "mps_speedup_over_cpu": 0.029
+    },
+    {
+      "n": 128,
+      "cpu": 5.1997900300193575e-06,
+      "mps": 6.308854499366134e-05,
+      "mps_speedup_over_cpu": 0.082
+    },
+    {
+      "n": 256,
+      "cpu": 2.836396000930108e-05,
+      "mps": 8.259624999482185e-05,
+      "mps_speedup_over_cpu": 0.343
+    },
+    {
+      "n": 512,
+      "cpu": 0.00013693166023585944,
+      "mps": 0.0001870058197528124,
+      "mps_speedup_over_cpu": 0.732
+    },
+    {
+      "n": 1024,
+      "cpu": 0.001165764179895632,
+      "mps": 0.0007057741598691791,
+      "mps_speedup_over_cpu": 1.652
+    },
+    {
+      "n": 2048,
+      "cpu": 0.00951392920105718,
+      "mps": 0.004654679200029932,
+      "mps_speedup_over_cpu": 2.044
+    },
+    {
+      "n": 4096,
+      "cpu": 0.08240140840061941,
+      "mps": 0.035870691598393026,
+      "mps_speedup_over_cpu": 2.297
+    }
+  ],
+  "model_matmul_sizes": {
+    "note": "the shapes this model actually runs, for comparison with the crossover table",
+    "qkv": "[T,128] @ [128,384]",
+    "fc1": "[T,128] @ [128,512]",
+    "largest_dim": 512,
+    "T_range": [
+      15,
+      96
+    ],
+    "biggest_job_macs": 6291456,
+    "biggest_job_equiv_square_n": 185
+  }
+}

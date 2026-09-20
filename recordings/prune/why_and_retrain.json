@@ -1,0 +1,440 @@
+{
+  "baseline": 1.696676254272461,
+  "same_at": 1.7815100669860842,
+  "break_at": 2.935531762084049,
+  "device": "mps",
+  "recipe": {
+    "lr": 0.0003,
+    "batch_size": 64,
+    "optimizer": "AdamW(0.9,0.95) wd 0.1",
+    "clip": 1.0
+  },
+  "energy": {
+    "rows": [
+      {
+        "pct_deleted": 10,
+        "smallest_first_share_of_size": 6.940880144055965e-05,
+        "random_share_of_size": 0.09617046903861047
+      },
+      {
+        "pct_deleted": 20,
+        "smallest_first_share_of_size": 0.0005593499333361153,
+        "random_share_of_size": 0.20165346409261528
+      },
+      {
+        "pct_deleted": 30,
+        "smallest_first_share_of_size": 0.0019119483287633452,
+        "random_share_of_size": 0.2979421379411184
+      },
+      {
+        "pct_deleted": 40,
+        "smallest_first_share_of_size": 0.004626220506492407,
+        "random_share_of_size": 0.4029558393314424
+      },
+      {
+        "pct_deleted": 50,
+        "smallest_first_share_of_size": 0.009291247654403898,
+        "random_share_of_size": 0.5033069699203444
+      },
+      {
+        "pct_deleted": 60,
+        "smallest_first_share_of_size": 0.01669860369290738,
+        "random_share_of_size": 0.5906300175738216
+      },
+      {
+        "pct_deleted": 70,
+        "smallest_first_share_of_size": 0.02804734207911766,
+        "random_share_of_size": 0.7018686827615805
+      },
+      {
+        "pct_deleted": 80,
+        "smallest_first_share_of_size": 0.045349301031508,
+        "random_share_of_size": 0.8016827641900931
+      },
+      {
+        "pct_deleted": 90,
+        "smallest_first_share_of_size": 0.07301991502973987,
+        "random_share_of_size": 0.9013080250017816
+      }
+    ],
+    "n_prunable": 815360,
+    "median_abs": 0.03699832037091255,
+    "max_abs": 4.256732940673828,
+    "share_below_0_05": 0.6384897468602826,
+    "share_below_0_1": 0.9234399529042386
+  },
+  "retrain": [
+    {
+      "mode": "magnitude-global",
+      "pct": 70,
+      "curve": [
+        {
+          "step": 0,
+          "loss": 3.0970795154571533,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say counddsong satrwnatr\n\n\nMyMyERANuglyEO:\n\nMyKELYou\nMyERIOLIO:VUSe"
+        },
+        {
+          "step": 25,
+          "loss": 2.3570566177368164,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say the me and thar s the o the seard thand the the me the me hat o"
+        },
+        {
+          "step": 50,
+          "loss": 2.1704790592193604,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say the me son the were hou so he made there shat mate the me hat t"
+        },
+        {
+          "step": 100,
+          "loss": 1.9988349676132202,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say the send the shall the seept the speath the seepter the seed\nTh"
+        },
+        {
+          "step": 200,
+          "loss": 1.8729957342147827,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say the shall the so the shat the shall the seed\nThe shall the stay"
+        },
+        {
+          "step": 400,
+          "loss": 1.803266167640686,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say the shall the some to the stranger the starred\nAnd the seep the"
+        },
+        {
+          "step": 800,
+          "loss": 1.7460079193115234,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.615820939211469,
+          "sample": "ROMEO:\nWhat say the shall the sent the shall the belood\nThe shall the sent the "
+        }
+      ]
+    },
+    {
+      "mode": "magnitude-global",
+      "pct": 80,
+      "curve": [
+        {
+          "step": 0,
+          "loss": 3.694267988204956,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat sayg PexZllanWABatRsunDYhoussouksemp'l sunLanIssemurw$rw$GLesene\nFI"
+        },
+        {
+          "step": 25,
+          "loss": 2.903900146484375,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat say the the s tha t  at hou the te the tat he te sore t you s se ho"
+        },
+        {
+          "step": 50,
+          "loss": 2.6576087474823,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat say the the sone he tat hou the the sea the the sele soure me se so"
+        },
+        {
+          "step": 100,
+          "loss": 2.419046401977539,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat say the the so hat we the mare he me the the so there that me se po"
+        },
+        {
+          "step": 200,
+          "loss": 2.1800220012664795,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat say the the so the the the se the make the the the the the math the"
+        },
+        {
+          "step": 400,
+          "loss": 2.0057456493377686,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat say the shall the so to the so to the sone to the stroung\nAnd the s"
+        },
+        {
+          "step": 800,
+          "loss": 1.8814786672592163,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.7123611961540423,
+          "sample": "ROMEO:\nWhat say the shall the some the seep the sear the prowed\nAnd the so some"
+        }
+      ]
+    },
+    {
+      "mode": "magnitude-global",
+      "pct": 90,
+      "curve": [
+        {
+          "step": 0,
+          "loss": 4.041771411895752,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat sayg Hex llllllrwMSlllMS\nwDek:eksempIi yEDVizIanesllpurwMSexpkne\nFI"
+        },
+        {
+          "step": 25,
+          "loss": 3.5315685272216797,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat say yIatellllllrwdn\nr yr hourwnesemlll  ynLanIanesorwfounetesene\nIO"
+        },
+        {
+          "step": 50,
+          "loss": 3.272730588912964,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat say te t te  t ha r   tane   horouelll  tr ynetataor i  yetesene ho"
+        },
+        {
+          "step": 100,
+          "loss": 2.9940006732940674,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat say the the at ta s  athin s s houe de athourot t mane the te he he"
+        },
+        {
+          "step": 200,
+          "loss": 2.706383466720581,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat say the the ther the and t s the an tharenoure sthe t the the se to"
+        },
+        {
+          "step": 400,
+          "loss": 2.464801073074341,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat say the the ther the and the the at thar the ou the the the athere "
+        },
+        {
+          "step": 800,
+          "loss": 2.233812093734741,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.8135322897057784,
+          "sample": "ROMEO:\nWhat say the the the the the hand the the the the that the the the he th"
+        }
+      ]
+    },
+    {
+      "mode": "random",
+      "pct": 20,
+      "curve": [
+        {
+          "step": 0,
+          "loss": 3.103388786315918,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say withat, tharerapt, thanot, theee weat tanot tat tanot.\nThat wee"
+        },
+        {
+          "step": 25,
+          "loss": 2.19433331489563,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say the the withe she the se the seeall the the see the sous the sh"
+        },
+        {
+          "step": 50,
+          "loss": 2.022033452987671,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say the the shear the shall the sour to the the shend theer\nAnd the"
+        },
+        {
+          "step": 100,
+          "loss": 1.8983145952224731,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say the shall the shall the seat the songet\nAnd the shall the shall"
+        },
+        {
+          "step": 200,
+          "loss": 1.8158706426620483,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say the shall the shall the so to the proves\nThat shall the some to"
+        },
+        {
+          "step": 400,
+          "loss": 1.7537260055541992,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say the come the worth the stay to the states,\nAnd the shall the sh"
+        },
+        {
+          "step": 800,
+          "loss": 1.6787939071655273,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.1995643487102107,
+          "sample": "ROMEO:\nWhat say the come to the prove to the come,\nAnd the shall the shall the "
+        }
+      ]
+    },
+    {
+      "mode": "random",
+      "pct": 50,
+      "curve": [
+        {
+          "step": 0,
+          "loss": 3.7204959392547607,
+          "same_model": false,
+          "broken": true,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say Ol3MllEy,BEmmurvoBEy,:JOncavwr,\nTEchtMlidBGIEchlcZoBCld   hhtI,"
+        },
+        {
+          "step": 25,
+          "loss": 2.7189950942993164,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say t the o the the and the the te at t the the the the the the t t"
+        },
+        {
+          "step": 50,
+          "loss": 2.5838584899902344,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say t the the wind the then the he t the the the the the the the th"
+        },
+        {
+          "step": 100,
+          "loss": 2.4646170139312744,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say the the the the thare the the there thean the the the the the t"
+        },
+        {
+          "step": 200,
+          "loss": 2.284877061843872,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say the the the the the the the the the the the the the the the the"
+        },
+        {
+          "step": 400,
+          "loss": 2.088771104812622,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say the the the spear the the the the sore to the\nThe the the the t"
+        },
+        {
+          "step": 800,
+          "loss": 1.9143270254135132,
+          "same_model": false,
+          "broken": false,
+          "still_zero_share": 0.49950766877124186,
+          "sample": "ROMEO:\nWhat say the shall the sour the sould the sould the sould\nThe shall the "
+        }
+      ]
+    },
+    {
+      "mode": "none",
+      "pct": 0,
+      "curve": [
+        {
+          "step": 0,
+          "loss": 1.696676254272461,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the "
+        },
+        {
+          "step": 25,
+          "loss": 1.6940654516220093,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the shall the shall the some to the soul\nThat the shall the sha"
+        },
+        {
+          "step": 50,
+          "loss": 1.6739264726638794,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the stand the stand the to the stand the stand\nThat the shall t"
+        },
+        {
+          "step": 100,
+          "loss": 1.6894973516464233,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the some to the come to the was the come\nTo the was the was the"
+        },
+        {
+          "step": 200,
+          "loss": 1.6678848266601562,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the son, and the soul the sould be the soul\nThat shall the shal"
+        },
+        {
+          "step": 400,
+          "loss": 1.6572155952453613,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the come to the come to the comest the stand\nThan the shall the"
+        },
+        {
+          "step": 800,
+          "loss": 1.6056188344955444,
+          "same_model": true,
+          "broken": false,
+          "still_zero_share": 0.0,
+          "sample": "ROMEO:\nWhat say the stand the stand the son the stand the stands\nAnd the shall "
+        }
+      ]
+    }
+  ]
+}

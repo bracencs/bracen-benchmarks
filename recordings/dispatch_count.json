@@ -1,0 +1,52 @@
+{
+  "method": "TorchDispatchMode over the exact 05_06_torch.py forward on MPS; tokens asserted equal to the recorded race",
+  "ops_total": 19392,
+  "ops_metadata_only": 6656,
+  "ops_launched": 12736,
+  "ops_launched_per_forward_mean": 199.0,
+  "per_forward_all_ops": [
+    303,
+    303
+  ],
+  "by_op": {
+    "add": 3328,
+    "mul": 1856,
+    "view": 1792,
+    "slice": 1600,
+    "transpose": 1280,
+    "mean": 1152,
+    "sub": 1152,
+    "mm": 1088,
+    "expand": 1024,
+    "pow": 832,
+    "_unsafe_view": 768,
+    "sqrt": 576,
+    "div": 576,
+    "bmm": 512,
+    "bitwise_not": 256,
+    "masked_fill": 256,
+    "_softmax": 256,
+    "clone": 256,
+    "tanh": 256,
+    "lift_fresh": 64,
+    "index": 64,
+    "ones": 64,
+    "tril": 64,
+    "select": 64,
+    "unsqueeze": 64,
+    "squeeze_": 64,
+    "argmax": 64,
+    "_local_scalar_dense": 64
+  },
+  "structural_estimate_it_replaces": 9472,
+  "macs": {
+    "first_forward": 12035200,
+    "last_forward": 67580032,
+    "whole_generation": 2505023488,
+    "context_range": [
+      15,
+      78
+    ],
+    "formula": "n_layer*T*(4*d*d + 2*d*d_ff) + n_layer*2*T*T*d + d*vocab"
+  }
+}

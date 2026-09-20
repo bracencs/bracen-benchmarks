@@ -1,0 +1,14 @@
+{
+  "flip": {
+    "tensor": "b0.qkv.w",
+    "elem": 21120,
+    "bit": 30,
+    "old": -0.020181024447083473,
+    "new": -6.867246765742888e+36
+  },
+  "part": "value",
+  "loss_before": 1.696676254272461,
+  "loss_after": 3.751925230026245,
+  "before": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the ",
+  "after": "ROMEO:\nWhat sayeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,237 @@
+{
+  "baseline": 1.696676254272461,
+  "break_at": 2.935531762084049,
+  "reps": 30,
+  "totals": {
+    "q": {
+      "broken": 15,
+      "trials": 240
+    },
+    "k": {
+      "broken": 12,
+      "trials": 240
+    },
+    "v": {
+      "broken": 240,
+      "trials": 240
+    }
+  },
+  "rows": [
+    {
+      "block": 0,
+      "tensor": "b0.qkv.w",
+      "part": "q",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 2.2172998189926147
+    },
+    {
+      "block": 0,
+      "tensor": "b0.qkv.w",
+      "part": "k",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 2.1060822010040283
+    },
+    {
+      "block": 0,
+      "tensor": "b0.qkv.w",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 0,
+      "tensor": "b0.qkv.b",
+      "part": "q",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.833507001399994
+    },
+    {
+      "block": 0,
+      "tensor": "b0.qkv.b",
+      "part": "k",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.701489806175232
+    },
+    {
+      "block": 0,
+      "tensor": "b0.qkv.b",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 1,
+      "tensor": "b1.qkv.w",
+      "part": "q",
+      "reps": 30,
+      "broken": 3,
+      "non_finite": 3,
+      "median_finite_loss": 2.046226739883423
+    },
+    {
+      "block": 1,
+      "tensor": "b1.qkv.w",
+      "part": "k",
+      "reps": 30,
+      "broken": 4,
+      "non_finite": 4,
+      "median_finite_loss": 1.926127552986145
+    },
+    {
+      "block": 1,
+      "tensor": "b1.qkv.w",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 1,
+      "tensor": "b1.qkv.b",
+      "part": "q",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.846085548400879
+    },
+    {
+      "block": 1,
+      "tensor": "b1.qkv.b",
+      "part": "k",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.7541122436523438
+    },
+    {
+      "block": 1,
+      "tensor": "b1.qkv.b",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 2,
+      "tensor": "b2.qkv.w",
+      "part": "q",
+      "reps": 30,
+      "broken": 7,
+      "non_finite": 7,
+      "median_finite_loss": 2.005438804626465
+    },
+    {
+      "block": 2,
+      "tensor": "b2.qkv.w",
+      "part": "k",
+      "reps": 30,
+      "broken": 4,
+      "non_finite": 4,
+      "median_finite_loss": 1.960656225681305
+    },
+    {
+      "block": 2,
+      "tensor": "b2.qkv.w",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 2,
+      "tensor": "b2.qkv.b",
+      "part": "q",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.9346521496772766
+    },
+    {
+      "block": 2,
+      "tensor": "b2.qkv.b",
+      "part": "k",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.7880695462226868
+    },
+    {
+      "block": 2,
+      "tensor": "b2.qkv.b",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 3,
+      "tensor": "b3.qkv.w",
+      "part": "q",
+      "reps": 30,
+      "broken": 5,
+      "non_finite": 5,
+      "median_finite_loss": 1.9969507455825806
+    },
+    {
+      "block": 3,
+      "tensor": "b3.qkv.w",
+      "part": "k",
+      "reps": 30,
+      "broken": 4,
+      "non_finite": 4,
+      "median_finite_loss": 1.9825446605682373
+    },
+    {
+      "block": 3,
+      "tensor": "b3.qkv.w",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    },
+    {
+      "block": 3,
+      "tensor": "b3.qkv.b",
+      "part": "q",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.9486706256866455
+    },
+    {
+      "block": 3,
+      "tensor": "b3.qkv.b",
+      "part": "k",
+      "reps": 30,
+      "broken": 0,
+      "non_finite": 0,
+      "median_finite_loss": 1.8650518655776978
+    },
+    {
+      "block": 3,
+      "tensor": "b3.qkv.b",
+      "part": "v",
+      "reps": 30,
+      "broken": 30,
+      "non_finite": 0,
+      "median_finite_loss": 3.751925230026245
+    }
+  ]
+}

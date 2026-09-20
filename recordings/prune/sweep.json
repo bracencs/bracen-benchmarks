@@ -1,0 +1,617 @@
+{
+  "baseline": 1.696676254272461,
+  "same_at": 1.7815100669860842,
+  "break_at": 2.935531762084049,
+  "n_all_params": 822337,
+  "n_prunable": 815360,
+  "summary": {
+    "magnitude-global": {
+      "max_pct_still_same_model": 30,
+      "max_pct_not_broken": 60
+    },
+    "magnitude-per-layer": {
+      "max_pct_still_same_model": 20,
+      "max_pct_not_broken": 60
+    },
+    "random": {
+      "max_pct_still_same_model": 0,
+      "max_pct_not_broken": 10
+    }
+  },
+  "rows": [
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 0,
+      "pct_of_all_params": 0.0,
+      "loss": 1.696676254272461,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the "
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 10,
+      "pct_of_all_params": 9.92,
+      "loss": 1.6980022192001343,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the "
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 20,
+      "pct_of_all_params": 19.83,
+      "loss": 1.7149287462234497,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the son, and the son the can the content.\n\nCORIOLANUS:\nI was th"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 30,
+      "pct_of_all_params": 29.75,
+      "loss": 1.753735899925232,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the content the shall the content the such of the soul\nThat hav"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 40,
+      "pct_of_all_params": 39.66,
+      "loss": 1.9063996076583862,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the sonce the constent the present the sout\nThe sould thear the"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 50,
+      "pct_of_all_params": 49.58,
+      "loss": 2.137199878692627,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say, the must the const the sounds thereave\nThe shall thangstionest"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 60,
+      "pct_of_all_params": 59.49,
+      "loss": 2.521902084350586,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the st thang the stind thistiestichestignestids\n\nThe the tit th"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 70,
+      "pct_of_all_params": 69.41,
+      "loss": 3.0970795154571533,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say counddsong satrwnatr\n\n\nMyMyERANuglyEO:\n\nMyKELYou\nMyERIOLIO:VUSe"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 75,
+      "pct_of_all_params": 74.36,
+      "loss": 3.335484743118286,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saystO,\nSIORIO,\n\nSIVEORIO:\nSTEY$rielll Prmung:\nTEdounWhestANs:\nSpri"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 80,
+      "pct_of_all_params": 79.32,
+      "loss": 3.694267988204956,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayg PexZllanWABatRsunDYhoussouksemp'l sunLanIssemurw$rw$GLesene\nFI"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 85,
+      "pct_of_all_params": 84.28,
+      "loss": 3.863565444946289,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayg HcounLang ixOllrw$rwnLak:e,ynelpl sunKinIani3llp'ounIOesune\nFI"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 88,
+      "pct_of_all_params": 87.25,
+      "loss": 3.9388673305511475,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayg HcounTELANorwn3 yDa:eG:TIsesurwde rwDVinIani3empurw&Oempknespn"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 90,
+      "pct_of_all_params": 89.24,
+      "loss": 4.041771411895752,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayg Hex llllllrwMSlllMS\nwDek:eksempIi yEDVizIanesllpurwMSexpkne\nFI"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 91,
+      "pct_of_all_params": 90.23,
+      "loss": 4.093737602233887,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayg HcekZEdnAHerwn3urCIOfG:&:rwnASlpl yEDVizIhiemllpurwMStUMkne\nFI"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 92,
+      "pct_of_all_params": 91.22,
+      "loss": 4.1000189781188965,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayoou\nwdvIa:AHerwn\nrKEd\nwDek:rwnASlll rwDVizIhiemllFOfouZLiekne\nIO"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 93,
+      "pct_of_all_params": 92.21,
+      "loss": 4.107137680053711,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayLIOfounEdg\nSerwn\nrKz\nMdg rwn$$urKELierV&erKtx:ellpurw&OfYfkne\nIO"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 94,
+      "pct_of_all_params": 93.2,
+      "loss": 4.153637409210205,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayLIOllllla:AHerwnkurCIO:O:T:rwnBouUi yEDVOlllli3erK:erwnLiekne\nIO"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 95,
+      "pct_of_all_params": 94.19,
+      "loss": 4.152830600738525,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayLIOffYcUa:Ang\nSlknL'u\nwnTT:eCourpIiesun$3urwng\nIak:erKunglkue\nIO"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 96,
+      "pct_of_all_params": 95.19,
+      "loss": 4.160341262817383,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayLIOffdcUC:AHi3MStYaSunvG:O:rwnATUMSprwn$3urKEdourK:erKNLyKkue\nIO"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 97,
+      "pct_of_all_params": 96.18,
+      "loss": 4.122028827667236,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saynEOffYcUG:HLex:OtTRDlO:O:T:rcerSl3:eRESCAK:t&rmlYhiereNL:eReC:OH"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 98,
+      "pct_of_all_params": 97.17,
+      "loss": 4.1618428230285645,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say:BY3OTNxVOT&Y3MSpF3CLBY3:&:T&Rppp3:TK&CKZBY:FUCEYK:BYzNBY3VUC::B"
+    },
+    {
+      "mode": "magnitude-global",
+      "pct_of_prunable": 99,
+      "pct_of_all_params": 98.16,
+      "loss": 4.113218784332275,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 0,
+      "pct_of_all_params": 0.0,
+      "loss": 1.696676254272461,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the "
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 10,
+      "pct_of_all_params": 9.92,
+      "loss": 1.704533576965332,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the son, and the son the shall the son,\nAnd the sould that the "
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 20,
+      "pct_of_all_params": 19.83,
+      "loss": 1.734692931175232,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the come to the proces and the proves\nTo the proves the shall t"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 30,
+      "pct_of_all_params": 29.75,
+      "loss": 1.8316155672073364,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the contrunt the contrunts of the concentent,\nAnd the shall the"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 40,
+      "pct_of_all_params": 39.66,
+      "loss": 2.059192419052124,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say, you lore have had thearth hart think the hath there hang are\nI"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 50,
+      "pct_of_all_params": 49.58,
+      "loss": 2.4293527603149414,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say te tile there of yoldese ower menoutese of\nTher old my calless "
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 60,
+      "pct_of_all_params": 59.49,
+      "loss": 2.8729021549224854,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say yondy y yly your yould hontuly youtrtheangul\nIfuly youll\nIthate"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 70,
+      "pct_of_all_params": 69.41,
+      "loss": 3.2151553630828857,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayorouldiedongitattly:\n\nInetrorounthetrththththethe, drenethanesta"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 75,
+      "pct_of_all_params": 74.36,
+      "loss": 3.380136489868164,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say Ilielielieatroworoutielskielield:\nIstyCllieddolly:\n\n\nNalienoror"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 80,
+      "pct_of_all_params": 79.32,
+      "loss": 3.610147714614868,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say:\n\nIXIIEYOHAIIO relie:\n\nIIO:\n\n\n\nIelyncelinely:\n\nINplyKILy:3urstr"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 85,
+      "pct_of_all_params": 84.28,
+      "loss": 3.822840452194214,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saytGBUSIO:IOHYO:OlYIOLO:IXIOLIXIN:O:eusuUShNT\nI:O:O::ulKIOLyKIC:\nI"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 88,
+      "pct_of_all_params": 87.25,
+      "loss": 3.942700147628784,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayzROLOLYZlYOHFsk3rSICIOL:OHLIXjA:OLReC:OLBNTRC:O:O::OLKZLLyKZA:Ok"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 90,
+      "pct_of_all_params": 89.24,
+      "loss": 4.0021209716796875,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say:FOLIDlYITIDF::FIRTIIOL:OHLI$xTIRCHOk:VOK:KIzTIDO::FVOHLvM:GL:FI"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 91,
+      "pct_of_all_params": 90.23,
+      "loss": 4.061946868896484,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayKIhIOHOHOgOYFCHTICKCIOLVOHLIIRTIO:FOk:FCK:IIVOYeRY:FIDYhLIRCK:FI"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 92,
+      "pct_of_all_params": 91.22,
+      "loss": 4.074661731719971,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayKCHOKIDYITIIFUMSICKCIOLVO:Fx&YTIRCBRvXKCK:FfY:F:OZupS:O:LIRCK:FY"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 93,
+      "pct_of_all_params": 92.21,
+      "loss": 4.07850980758667,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayKIdfZGLGZOZIFCHTvBRCIDL:OXS:OHTAS:BYcUEOHTIDY:FjYO:FVOZOZuZGI3lN"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 94,
+      "pct_of_all_params": 93.2,
+      "loss": 4.1217803955078125,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayKG:fZRYpIOZAFCOMSITUID::OXKxOHTAUCKxIDOEOHOZA:OEOZxOEOkVIDYcCgHO"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 95,
+      "pct_of_all_params": 94.19,
+      "loss": 4.140079975128174,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayOZAGOHOZROZLwRTMOEOEO&R:OIz$$$$$$$$xIDOEOHOZA:OEON:OEOMhUNZGIzNY"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 96,
+      "pct_of_all_params": 95.19,
+      "loss": 4.14555025100708,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayOHOHOHgpCOUNZCkRYx&pLUICNT:pCVS:OCNpD$x&RBOHOHTCVOk:fVgHOHZRCVgI"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 97,
+      "pct_of_all_params": 96.18,
+      "loss": 4.144312858581543,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayKxZRYTYf&RUNfKZGLx$$$$$xpI3I3jS:ppGRY:N&RYTfVOEYf&:FppGgfNTY3IRY"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 98,
+      "pct_of_all_params": 97.17,
+      "loss": 4.118858814239502,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayLAGgp:FpREUpkCKx&RE&RY::F:FppjSpppGgp$3BOEBYDOEp:F:F:F:F:FUT$$j:"
+    },
+    {
+      "mode": "magnitude-per-layer",
+      "pct_of_prunable": 99,
+      "pct_of_all_params": 98.16,
+      "loss": 4.127574920654297,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayp:&B:R:pp:p:p:pGD::$$$$$&:pp:Z:$$$$$$$j&BR::p::p:B:ppp:ppkB:ppp:"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 0,
+      "pct_of_all_params": 0.0,
+      "loss": 1.696676254272461,
+      "same_model": true,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say the son, and the son, and the son,\nAnd the shall the shall the "
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 10,
+      "pct_of_all_params": 9.92,
+      "loss": 2.6695854663848877,
+      "same_model": false,
+      "broken": false,
+      "sample": "ROMEO:\nWhat say thellive thivery hallalalind tonowery tolle tomor:\nThat weresst"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 20,
+      "pct_of_all_params": 19.83,
+      "loss": 3.103388786315918,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say withat, tharerapt, thanot, theee weat tanot tat tanot.\nThat wee"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 30,
+      "pct_of_all_params": 29.75,
+      "loss": 3.2761716842651367,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say wllllllllllllllI  tw, w, wnowlllddddrst wBellllllllllll:unt wow"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 40,
+      "pct_of_all_params": 39.66,
+      "loss": 3.5049989223480225,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say tIOffffen::ent tI tIndoprsthinivowstII'yntGIt:ell:f tI'llllItLi"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 50,
+      "pct_of_all_params": 49.58,
+      "loss": 3.7204959392547607,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say Ol3MllEy,BEmmurvoBEy,:JOncavwr,\nTEchtMlidBGIEchlcZoBCld   hhtI,"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 60,
+      "pct_of_all_params": 59.49,
+      "loss": 3.8278589248657227,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say f$stlcoRTHosatIsek$$hbo&IOEdseIf\n htIj\n sa  RsIOEivl3o&lEluCtLI"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 70,
+      "pct_of_all_params": 69.41,
+      "loss": 3.9729397296905518,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say E  t:::hylMid lMuk$z:hyoVBoBul:hEIhalMoRdC  AalOBoBoslylOf$GNoR"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 75,
+      "pct_of_all_params": 74.36,
+      "loss": 4.040771007537842,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saymf$zl::otOGmyvdz'Y wzGvJMf$z'uyoVvBoulMoBEW GEtmysboBolOGNIjotmW"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 80,
+      "pct_of_all_params": 79.32,
+      "loss": 4.085110187530518,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saybBo3g::O:OFasf$zs  wzo3CTd T:$iGBO:OnR:oOpf$zG:OsYbIOboBEnGBoroV"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 85,
+      "pct_of_all_params": 84.28,
+      "loss": 4.111851215362549,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOAYg:sfSiroBEuFjsboBVACboBTOsa,Q TO;e oBEWhdGBO:sfO:sfdlTO:Cdst"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 88,
+      "pct_of_all_params": 87.25,
+      "loss": 4.136690616607666,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOAPeasEW?:sddBOAuk$BVAsfO TDVs,:sdOfObFObQzo3DVsSdgDVsgQdAsTdT:"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 90,
+      "pct_of_all_params": 89.24,
+      "loss": 4.140096664428711,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOb::::EnQzoBb'Ik$UDRUAVbaCHN$cFb dOfUQMObQ LRYObIsIklHNQudCoBVQ"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 91,
+      "pct_of_all_params": 90.23,
+      "loss": 4.1220316886901855,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOf::::BMyG:NSN j:,DRY:VfObHN$e j jOfObHa,:wLRYhYqbloBVhYnRYoBV:"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 92,
+      "pct_of_all_params": 91.22,
+      "loss": 4.121002197265625,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOf::::LVQblyUl klyDR::VfObHN$e V dOfOfOku:wLR:hYYbSBVHNSHNSbir:"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 93,
+      "pct_of_all_params": 92.21,
+      "loss": 4.119264602661133,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOfOfS\nLVQvblyUlMMMDREVVfObHNSe VQdO&SbQkuyULVQbHNbSrpHNSHNSbir:"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 94,
+      "pct_of_all_params": 93.2,
+      "loss": 4.099316120147705,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOfOfOfOfOfOfOfOfOfCrpEVfObQbQe OfOO&SbQkudLVQddOfOfBdLVHHFbQirp"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 95,
+      "pct_of_all_params": 94.19,
+      "loss": 4.0933732986450195,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayUOHEzYctrpSddCd kNSDrpEzbaCUQveeOrpO&StrkNSw3CdduGElBdA l$Fb:irp"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 96,
+      "pct_of_all_params": 95.19,
+      "loss": 4.094913005828857,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat say OHGNSntmsSsdCd kNSlrnRRdBCdQveeOrdC&OYnkNSwVBduuGWUrdaalHFbaird"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 97,
+      "pct_of_all_params": 96.18,
+      "loss": 4.118431568145752,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saycDHGuPikMiksdCd kUksSnRRumCdQvBQV kskPiPkklbhUdCdCWUBHaaSHaCdksS"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 98,
+      "pct_of_all_params": 97.17,
+      "loss": 4.109432220458984,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat sayc&QQHQQBQQQHnBQhBUBQQnRuP CVQQQQQBQ QQQPBkycRuz?$cWUBHQ  3PQQnQn"
+    },
+    {
+      "mode": "random",
+      "pct_of_prunable": 99,
+      "pct_of_all_params": 98.16,
+      "loss": 4.119913578033447,
+      "same_model": false,
+      "broken": true,
+      "sample": "ROMEO:\nWhat saycHHHHHHHHHHsW&QHHsWHHHHHHHCH!HHHsWHHHHHsWQycHHdQQQWFHHHH HHHHUHs"
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "trials": 100,
+  "bits_total": 26314784,
+  "baseline": 1.696676254272461,
+  "break_at": 2.935531762084049,
+  "median": 28.0,
+  "p10": 5.9,
+  "p90": 117.10000000000001,
+  "min": 1,
+  "max": 233,
+  "share_breaking_bit_30": 1.0,
+  "never_broke_within_cap": 0,
+  "results": [
+    {
+      "trial": 0,
+      "flips_to_break": 71,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.qkv.w",
+      "linear_scan_agrees": true
+    },
+    {
+      "trial": 1,
+      "flips_to_break": 130,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.qkv.w",
+      "linear_scan_agrees": true
+    },
+    {
+      "trial": 2,
+      "flips_to_break": 37,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.proj.w",
+      "linear_scan_agrees": true
+    },
+    {
+      "trial": 3,
+      "flips_to_break": 3,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.qkv.w",
+      "linear_scan_agrees": true
+    },
+    {
+      "trial": 4,
+      "flips_to_break": 76,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": true
+    },
+    {
+      "trial": 5,
+      "flips_to_break": 27,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 6,
+      "flips_to_break": 6,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 7,
+      "flips_to_break": 51,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 8,
+      "flips_to_break": 14,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 9,
+      "flips_to_break": 52,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 10,
+      "flips_to_break": 18,
+      "breaking_bit": 30,
+      "breaking_tensor": "head.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 11,
+      "flips_to_break": 63,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 12,
+      "flips_to_break": 11,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 13,
+      "flips_to_break": 83,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 14,
+      "flips_to_break": 15,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 15,
+      "flips_to_break": 7,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 16,
+      "flips_to_break": 20,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 17,
+      "flips_to_break": 15,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 18,
+      "flips_to_break": 134,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 19,
+      "flips_to_break": 233,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 20,
+      "flips_to_break": 32,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 21,
+      "flips_to_break": 54,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 22,
+      "flips_to_break": 62,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 23,
+      "flips_to_break": 5,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 24,
+      "flips_to_break": 5,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 25,
+      "flips_to_break": 66,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 26,
+      "flips_to_break": 4,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 27,
+      "flips_to_break": 19,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 28,
+      "flips_to_break": 157,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.b",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 29,
+      "flips_to_break": 8,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 30,
+      "flips_to_break": 4,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 31,
+      "flips_to_break": 48,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 32,
+      "flips_to_break": 42,
+      "breaking_bit": 30,
+      "breaking_tensor": "head.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 33,
+      "flips_to_break": 94,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 34,
+      "flips_to_break": 10,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 35,
+      "flips_to_break": 4,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 36,
+      "flips_to_break": 16,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 37,
+      "flips_to_break": 31,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 38,
+      "flips_to_break": 117,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 39,
+      "flips_to_break": 35,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 40,
+      "flips_to_break": 26,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 41,
+      "flips_to_break": 1,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 42,
+      "flips_to_break": 25,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 43,
+      "flips_to_break": 21,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 44,
+      "flips_to_break": 11,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 45,
+      "flips_to_break": 39,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 46,
+      "flips_to_break": 9,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 47,
+      "flips_to_break": 16,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 48,
+      "flips_to_break": 12,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 49,
+      "flips_to_break": 82,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 50,
+      "flips_to_break": 57,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 51,
+      "flips_to_break": 24,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 52,
+      "flips_to_break": 143,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 53,
+      "flips_to_break": 102,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 54,
+      "flips_to_break": 79,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 55,
+      "flips_to_break": 26,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 56,
+      "flips_to_break": 4,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 57,
+      "flips_to_break": 7,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc1.b",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 58,
+      "flips_to_break": 44,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 59,
+      "flips_to_break": 20,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 60,
+      "flips_to_break": 24,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 61,
+      "flips_to_break": 20,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 62,
+      "flips_to_break": 181,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 63,
+      "flips_to_break": 50,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 64,
+      "flips_to_break": 1,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 65,
+      "flips_to_break": 86,
+      "breaking_bit": 30,
+      "breaking_tensor": "pos.weight",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 66,
+      "flips_to_break": 18,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 67,
+      "flips_to_break": 53,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.proj.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 68,
+      "flips_to_break": 9,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 69,
+      "flips_to_break": 29,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 70,
+      "flips_to_break": 165,
+      "breaking_bit": 30,
+      "breaking_tensor": "b3.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 71,
+      "flips_to_break": 111,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 72,
+      "flips_to_break": 23,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 73,
+      "flips_to_break": 25,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 74,
+      "flips_to_break": 84,
+      "breaking_bit": 30,
+      "breaking_tensor": "head.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 75,
+      "flips_to_break": 61,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 76,
+      "flips_to_break": 125,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 77,
+      "flips_to_break": 23,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 78,
+      "flips_to_break": 7,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 79,
+      "flips_to_break": 38,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 80,
+      "flips_to_break": 16,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 81,
+      "flips_to_break": 83,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 82,
+      "flips_to_break": 78,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 83,
+      "flips_to_break": 24,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 84,
+      "flips_to_break": 69,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 85,
+      "flips_to_break": 34,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 86,
+      "flips_to_break": 35,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 87,
+      "flips_to_break": 110,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 88,
+      "flips_to_break": 22,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 89,
+      "flips_to_break": 10,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 90,
+      "flips_to_break": 12,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 91,
+      "flips_to_break": 10,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 92,
+      "flips_to_break": 2,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 93,
+      "flips_to_break": 26,
+      "breaking_bit": 30,
+      "breaking_tensor": "b2.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 94,
+      "flips_to_break": 51,
+      "breaking_bit": 30,
+      "breaking_tensor": "head.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 95,
+      "flips_to_break": 125,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 96,
+      "flips_to_break": 21,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc1.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 97,
+      "flips_to_break": 34,
+      "breaking_bit": 30,
+      "breaking_tensor": "b0.fc2.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 98,
+      "flips_to_break": 118,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.qkv.w",
+      "linear_scan_agrees": null
+    },
+    {
+      "trial": 99,
+      "flips_to_break": 30,
+      "breaking_bit": 30,
+      "breaking_tensor": "b1.fc2.w",
+      "linear_scan_agrees": null
+    }
+  ]
+}
