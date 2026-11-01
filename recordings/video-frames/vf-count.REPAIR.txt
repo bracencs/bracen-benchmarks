@@ -1,0 +1,6 @@
+vf-count.mp4 — one-frame repair, 2026-09-25
+Frame 68 (2.267 s) of the screen recording caught the terminal mid-repaint: fragments of two output rows, one frame
+before the complete output (frame 69). That is the screen recorder sampling a half-drawn window, not something
+count_frames.sh printed. It was replaced with frame 69 (ffmpeg freezeframes first=68 last=68 replace=69, x264 crf 10);
+every other frame differs from the original by encode noise only (mean |diff| <= 0.04 grey levels).
+The unrepaired recording is kept next to this note: vf-count.pre-tearfix.mp4.

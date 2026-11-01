@@ -11,3 +11,12 @@ capture/
 __pycache__/
 *.pyc
 .DS_Store
+
+# video-frames (2026-09-25): the film itself — fetch.sh downloads and verifies it from the Blender mirror; it is never
+# redistributed here — and extract_mvs, which build_c.sh compiles from extract_mvs.c (same rule as bin/ above).
+video-frames/media/
+video-frames/extract_mvs
+# Re-encodes of the film that measure.py regenerates. They are not evidence (the JSON next to them is), and
+# film_phone.mp4 is 120 MB, over GitHub's 100 MB hard limit: a push that includes it fails.
+recordings/video-frames/*.mp4
+public/

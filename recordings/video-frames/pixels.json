@@ -1,0 +1,9 @@
+{
+ "frame": "pan_frame.png",
+ "x": 620,
+ "y": 560,
+ "size": 8,
+ "luma_bytes": 64,
+ "chroma_bytes": 32,
+ "bytes_per_pixel": 1.5
+}

@@ -1,0 +1,27 @@
+{
+    "baseline_s": 0.335,
+    "shim_s": 0.829,
+    "quiet_s": 0.401,
+    "ratio": 2.48,
+    "delta_ms": 494,
+    "cpu_baseline_s": 0.03,
+    "cpu_shim_s": 1.02,
+    "gated_off_s": 0.324,
+    "client_cpu_baseline_s": 0.22,
+    "client_cpu_shim_s": 0.23,
+    "preload_target": "sshd (server); client unmodified",
+    "perf_top_line": "96.83%    96.63%  sshd     libslow-recon.so      [.] recon_startup",
+    "kernel": "7.0.0-31-generic",
+    "arch": "x86_64",
+    "freund": {
+        "baseline_s": 0.299,
+        "slow_s": 0.807,
+        "source": "oss-security 2024-03-29"
+    },
+    "commands": {
+        "time": "ssh -o BatchMode=yes nobody@127.0.0.1 true (clean client, median x15)",
+        "server": "LD_PRELOAD=shim sshd (re-execs per login -> server-side burn)",
+        "perf": "perf record -g -- env LD_PRELOAD=shim sshd -d; one login",
+        "cpu": "/usr/bin/time -v env LD_PRELOAD=shim sshd -d; one login"
+    }
+}

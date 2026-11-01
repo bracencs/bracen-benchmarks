@@ -1,0 +1,154 @@
+{
+  "machine": {
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "torch": "2.6.0",
+    "device": "mps",
+    "dtype": "float16",
+    "cores": 14,
+    "chip": "Apple M1 Pro"
+  },
+  "peaks": {
+    "compute_tflops": 4.013128662264787,
+    "bandwidth_gbps": 157.38439422804245,
+    "ridge_flops_per_byte": 25.49889829896321,
+    "apple_spec_bandwidth_gbps": 200
+  },
+  "model": {
+    "name": "1B",
+    "matmul_params": 1235746816,
+    "weight_bytes_fp16": 2471493632,
+    "config": {
+      "name": "1B",
+      "hidden": 2048,
+      "inter": 8192,
+      "layers": 16,
+      "heads": 32,
+      "kv_heads": 8,
+      "head_dim": 64,
+      "vocab": 128256
+    }
+  },
+  "decode": [
+    {
+      "batch": 1,
+      "step_ms": 38.057792000472546,
+      "step_min_ms": 34.512000042013824,
+      "tokens_per_s": 26.275828087651103,
+      "ach_tflops": 0.06494054179415644,
+      "ach_gbps": 64.94054179415645,
+      "intensity": 1.0,
+      "compute_util": 0.016182023368647148,
+      "bandwidth_util": 0.41262376814857965
+    },
+    {
+      "batch": 2,
+      "step_ms": 36.49770806077868,
+      "step_min_ms": 33.18433405365795,
+      "tokens_per_s": 54.79796146841474,
+      "ach_tflops": 0.1354328128157684,
+      "ach_gbps": 67.71640640788421,
+      "intensity": 2.0,
+      "compute_util": 0.03374743852327368,
+      "bandwidth_util": 0.4302612513777343
+    },
+    {
+      "batch": 4,
+      "step_ms": 35.77199997380376,
+      "step_min_ms": 32.98787504900247,
+      "tokens_per_s": 111.81930009306848,
+      "ach_tflops": 0.27636068811471576,
+      "ach_gbps": 69.09017202867894,
+      "intensity": 4.0,
+      "compute_util": 0.06886414849175385,
+      "bandwidth_util": 0.438989979708983
+    },
+    {
+      "batch": 8,
+      "step_ms": 58.51116694975644,
+      "step_min_ms": 52.98429192043841,
+      "tokens_per_s": 136.72603738820663,
+      "ach_tflops": 0.33791753073354663,
+      "ach_gbps": 42.23969134169333,
+      "intensity": 8.0,
+      "compute_util": 0.08420301444879287,
+      "bandwidth_util": 0.26838551273698735
+    },
+    {
+      "batch": 16,
+      "step_ms": 45.2735839644447,
+      "step_min_ms": 41.54329199809581,
+      "tokens_per_s": 353.4069671304461,
+      "ach_tflops": 0.8734430687673309,
+      "ach_gbps": 54.590191797958184,
+      "intensity": 16.0,
+      "compute_util": 0.21764641562087578,
+      "bandwidth_util": 0.3468589885656618
+    },
+    {
+      "batch": 32,
+      "step_ms": 50.733583979308605,
+      "step_min_ms": 47.783292015083134,
+      "tokens_per_s": 630.7458982801414,
+      "ach_tflops": 1.5588844710094893,
+      "ach_gbps": 48.71513971904654,
+      "intensity": 32.0,
+      "compute_util": 0.3884461730987069,
+      "bandwidth_util": 0.3095296707020433
+    },
+    {
+      "batch": 64,
+      "step_ms": 73.1950419722125,
+      "step_min_ms": 69.20045800507069,
+      "tokens_per_s": 874.3761636791838,
+      "ach_tflops": 2.1610151205056924,
+      "ach_gbps": 33.76586125790144,
+      "intensity": 64.0,
+      "compute_util": 0.5384863786764653,
+      "bandwidth_util": 0.2145438969570028
+    },
+    {
+      "batch": 128,
+      "step_ms": 122.3892499692738,
+      "step_min_ms": 115.50420802086592,
+      "tokens_per_s": 1045.8434873335264,
+      "ach_tflops": 2.584795519013483,
+      "ach_gbps": 20.193714992292836,
+      "intensity": 128.0,
+      "compute_util": 0.6440848865171365,
+      "bandwidth_util": 0.12830824232187282
+    },
+    {
+      "batch": 256,
+      "step_ms": 208.59812502749264,
+      "step_min_ms": 199.34879196807742,
+      "tokens_per_s": 1227.240177572353,
+      "ach_tflops": 3.03311628380462,
+      "ach_gbps": 11.848110483611798,
+      "intensity": 256.0,
+      "compute_util": 0.755798415417087,
+      "bandwidth_util": 0.07528135519233535
+    }
+  ],
+  "batch1": {
+    "tokens_per_s": 26.275828087651103,
+    "compute_util": 0.016182023368647148,
+    "bandwidth_util": 0.41262376814857965,
+    "intensity": 1.0
+  },
+  "crossover_batch": 32,
+  "h100": {
+    "bf16_dense_tflops": 989.5,
+    "hbm3_tbps": 3.35,
+    "ridge_flops_per_byte": 295.3731343283582,
+    "decode_intensity": 1.0,
+    "batch1_utilization": 0.0033855482566953004,
+    "batch1_percent": 0.33855482566953005,
+    "under_one_percent": true
+  },
+  "commands": {
+    "bench": "python3 decode_bench.py",
+    "h100": "python3 h100.py",
+    "measure": "python3 measure.py",
+    "challenge": "python3 challenge.py"
+  }
+}

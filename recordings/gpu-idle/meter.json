@@ -1,0 +1,16 @@
+{
+  "idle": {
+    "n": 11,
+    "median": 11,
+    "max": 17,
+    "min": 0
+  },
+  "batch1": {
+    "n": 39,
+    "median": 86,
+    "max": 88,
+    "min": 0
+  },
+  "sample_interval_s": 0.25,
+  "source": "ioreg -c IOAccelerator \u2192 PerformanceStatistics[\"Device Utilization %\"]"
+}
